@@ -1,9 +1,8 @@
-import { CssBaseline } from '@nextui-org/react'
-import 'styles/global.css'
+import Navbar from 'components/Navbar'
 
 const MyApp = ({ Component, pageProps }) => (
   <>
-    <CssBaseline />
+    <Navbar />
     <Component {...pageProps} />
   </>
 )
