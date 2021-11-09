@@ -9,7 +9,8 @@ module.exports = withPWA({
     dest: 'public',
     register: true,
     skipWaiting: true,
-    publicExcludes: ['!robots.txt'],
+    publicExcludes: [/middleware-manifest\.json$/],
     disable: process.env.NODE_ENV === 'development',
+    runtimeCaching,
   },
 })
