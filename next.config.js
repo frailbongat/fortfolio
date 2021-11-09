@@ -10,5 +10,6 @@ module.exports = withPWA({
     register: true,
     skipWaiting: true,
     publicExcludes: ['!robots.txt', '!sitemap.xml.gz'],
+    disable: process.env.NODE_ENV === 'development',
   },
 })
