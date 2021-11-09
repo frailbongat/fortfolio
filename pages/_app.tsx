@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import 'tailwindcss/tailwind.css'
 import Navbar from 'components/Navbar'
+import 'styles/globals.css'
 
 const MyApp = ({ Component, pageProps }) => (
   <>

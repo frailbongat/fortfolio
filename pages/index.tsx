@@ -1,6 +1,8 @@
 const Home = () => (
   <>
-    <p>Welcome to a whole new typescript project!</p>
+    <p className='text-primary font-body'>
+      Welcome to a whole new typescript project!
+    </p>
   </>
 )
 
