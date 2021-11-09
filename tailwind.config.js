@@ -1,13 +1,10 @@
 module.exports = {
   purge: [],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: false,
   theme: {
     extend: {
       colors: {
         primary: '#fc0',
-      },
-      fontFamily: {
-        body: ['Nunito', 'sans-serif'],
       },
     },
   },
